@@ -5,9 +5,9 @@ using authentication, vue-router and roles.  It also uses
 vue-infinite-loading to load the posts as the user scrolls.
 It uses Feathers on the server side.
 
-![Login Screenshot](./client/assets/login.png?raw=true "Login Screenshot")
+![Login Screenshot](https://raw.githubusercontent.com/delay/feathers-vue-blog-admin-demo/master/client/static/posts.png "Login Screenshot")
 
-![Posts Screenshot](./client/assets/posts.png?raw=true "Posts Screenshot")
+![Posts Screenshot](https://raw.githubusercontent.com/delay/feathers-vue-blog-admin-demo/master/client/static/login.png "Posts Screenshot")
 
 
 ``` 
