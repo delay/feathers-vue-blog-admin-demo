@@ -18,10 +18,3 @@ socket.on('reconnect', () => {app.authenticate();}); //https://github.com/feathe
 // repeat this line for every service in our backend
 export const postService = app.service('posts');
 export const userService = app.service('users');
-
-
-// in  actions.js, your component and anywhere else you need your services:
-// import messageService from './services';
-
-// or load all services at once: import * as services from './services'
-// and access them as services.messageService etc.

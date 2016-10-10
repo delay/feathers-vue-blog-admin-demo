@@ -9,7 +9,6 @@ import Signup from '../components/Signup.vue'
 import Login from '../components/Login.vue'
 import NotFound from '../components/NotFound.vue'
 import Post from '../components/Post.vue'
-import RemovePost from '../components/RemovePost.vue'
 import SampleData from '../components/SampleData.vue'
 
 function requireAuth (to, from, next) {
@@ -37,7 +36,6 @@ export default new Router({
     { path: '/post', component: Post, beforeEnter: requireAuth },
     { path: '/signup', component: Signup },
     { path: '/post/:id', component: Post},
-    { path: '/removepost/:id', component: RemovePost},
     { path: '/logout',
      beforeEnter (to, from, next) {
       services.app.logout();
